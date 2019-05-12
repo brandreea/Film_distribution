@@ -15,12 +15,13 @@ int main()
 	
 	FilmDirector Y;
 	Actor X;
+	
 	fin >> Y;
 	fin >> X;
+	cout << "\n\n";
 	Y.show();
 	X.show();
 	Y.setSalary(x.getMoney());
-	cout << Y.getSalary() << "\n";
 	X.setSalary(x.getMoney(),1);
 	
 	return 0;
